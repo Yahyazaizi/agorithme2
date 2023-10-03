@@ -1,0 +1,22 @@
+alogo ex 12
+Algorithme echnage-dane-valeur
+
+Variables A, B,C, D : entier
+Début
+Ecrire( " Veuillez saisir la valeur de A: " )
+Lire ( A )
+Ecrire ( " Veuillez saisir la valeur de B: " )
+Lire ( B )
+Si A*B > 0 Alors
+C <-- A
+A <-- B
+B <-- C
+Sinon
+C <-- A + B
+D <-- A * B
+A <-- C
+B <-- D
+fin Si
+Ecrire ("La nouvelle valeur de A est: ", A )
+Ecrire ("La nouvelle valeur de B est: ", B )
+Fin
